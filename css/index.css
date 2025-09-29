@@ -1,0 +1,27 @@
+#section-2{
+    background-color: black;
+
+}
+/*
+.carousel-indicators{
+    display: none;
+}*/
+
+.carousel-item{
+    width: 100%;
+}
+
+pre{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+
+
