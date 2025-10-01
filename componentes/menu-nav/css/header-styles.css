@@ -219,6 +219,8 @@
 }
 
 .fs-x-small {
-    width: 8rem; 
-    height: auto;
+    width: 7rem; 
+    height: 9rem;
+    object-fit: cover;
+    object-position: center;
 }
