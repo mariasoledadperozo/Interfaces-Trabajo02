@@ -213,3 +213,12 @@
     font-weight: bold;
     font-size: 1.3rem;
 }
+
+.w-max-content {
+    width: max-content;
+}
+
+.fs-x-small {
+    width: 8rem; 
+    height: auto;
+}
