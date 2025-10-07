@@ -265,8 +265,17 @@
 
 .bg-launcher {
   background-color: #fcaf17;
+  width: 30rem;
 }
 
+.icon-size {
+  width: 2rem;
+  height: 2rem;
+}
+
+special-p  {
+  padding: 10rem;
+}
 
 .bi-search {
   font-size: 1.3rem;
