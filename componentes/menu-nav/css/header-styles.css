@@ -356,11 +356,11 @@ section::-webkit-scrollbar {
   }
 
   .fs-custom {
-    font-size: 0.8rem;
-    width: 9.4rem;
+    font-size: 0.9rem;
+    padding: 0;
+    width: 10.5rem;
     height: 2.5rem;
-    margin: 2rem;
+    margin: 0;
     font-weight: bolder;
-    padding-top: 0.75rem;
   }
 }
