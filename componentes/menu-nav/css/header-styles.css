@@ -276,7 +276,7 @@ section::-webkit-scrollbar {
 }
 
 .logo-size {
-  width: 1.5rem;
+  width: 2rem;
 }
 
 .navbar input[type="search"] {
@@ -336,7 +336,7 @@ section::-webkit-scrollbar {
     display: block;
     padding: 0.5rem 0; 
     color: white; 
-    font-weight: 200;
+    font-weight: 500;
     font-size: 0.813rem;
     letter-spacing: -1px;
   }
