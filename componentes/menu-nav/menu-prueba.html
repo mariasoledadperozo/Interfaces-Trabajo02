@@ -15,7 +15,7 @@
 <body>
 
     <header class="navbar bg-black text-white navbar-dark navbar-expand-lg sticky-top">
-        <div class="container-fluid p-0 overflow-hidden">
+        <div class="container-fluid p-0">
 
             <!-- Barra superior con logo y botones -->
             <div class="d-flex justify-content-between align-items-center p-3 w-100 bg-black">
@@ -34,24 +34,24 @@
             <div class="navbar-collapse collapse" id="navbarNavAltMarkup">
                 
                 <!-- Buscador -->
-                <div class="position-relative flex-grow-1 px-lg-3 mb-3 mb-lg-0 w-70 overflow-hidden">
+                <div class="position-relative flex-grow-1 px-lg-3 mb-3 mb-lg-0">
                     <i class="bi bi-search position-absolute top-50 start-0 translate-middle-y ms-3 text-white"></i>
                     <input type="search"
-                        class="form-control rounded-0 bg-dark border-0 text-white ps-5 pe-2 w-100"
+                        class="form-control rounded-0 bg-dark border-0 text-white ps-5 pe-2"
                         placeholder="Search Rockstar Games..." aria-label="Search">
                 </div>
 
                 <!-- Sección de juegos: visible en móvil, oculta en PC -->
                 <ul class="navbar-nav">
-                    <li class="nav-item ps-4 pt-3 d-lg-none nav-item col-7 col-md-12 d-lg-none">
-                        <div class="d-flex flex-row justify-content-between mb-3 col-9 col-md-11 d-lg-none">
+                    <li class="nav-item ps-4 pt-3 d-lg-none nav-item col-7 col-md-10 d-lg-none">
+                        <div class="d-flex flex-row justify-content-between mb-3 col-9 col-md-9 d-lg-none">
                             <a class="nav-link active fs-normal text-white" href="#">Featured Games</a>
                             <a class="nav-link active text-end fs-small d-flex align-items-center gap-1 text-white" href="#">
                                 VIEW ALL <img src="img/flecha.svg" alt="Flecha" class="svg-size">
                             </a>
                         </div>
 
-                        <div class="d-flex gap-3 flex-nowrap overflow-auto wrapper mb-3 col-9 col-md-12">
+                        <div class="d-flex gap-3 flex-nowrap overflow-auto wrapper mb-3 col-9 col-md-6">
                             <div class="border border-secondary rounded p-1 bg-black flex-shrink-0 w-fixed">
                                 <img src="img/GTAVI.jpg" class="rounded pic-size" alt="GTA VI">
                             </div>
@@ -83,7 +83,7 @@
                         <a class="nav-link active fs-normal text-white" href="#">Downloads</a>
                     </li>
 
-                    <li class="nav-item col-6 col-md-12 ps-4 ps-lg-3 pt-2 pb-2 d-flex flex-row justify-content-between align-items-center">
+                    <li class="nav-item ps-4 ps-lg-3 pt-2 pb-2 d-flex flex-row justify-content-between align-items-center">
                         <a class="nav-link active fs-normal text-white" href="#">Store</a>
                         <svg xmlns="http://www.w3.org/2000/svg" width="0.75rem" height="0.75rem" fill="none" viewBox="0 0 16 16"
                             aria-hidden="true" focusable="false" class="me-4 me-lg-0">
@@ -93,7 +93,7 @@
                         </svg>
                     </li>
 
-                    <li class="nav-item col-6 col-md-12 ps-4 ps-lg-3 pt-2 pb-2 d-flex flex-row justify-content-between align-items-center">
+                    <li class="nav-item ps-4 ps-lg-3 pt-2 pb-2 d-flex flex-row justify-content-between align-items-center">
                         <a class="nav-link active fs-normal text-white" href="#">Support</a>
                         <svg xmlns="http://www.w3.org/2000/svg" width="0.75rem" height="0.75rem" fill="none" viewBox="0 0 16 16"
                             aria-hidden="true" focusable="false" class="me-4 me-lg-0">
@@ -103,8 +103,8 @@
                         </svg>
                     </li>
 
-                    <li class="nav-item ps-4 ps-lg-3 pt-2 pb-2 overflow-hidden special-size-button">
-                        <button class="col-5 col-md-11 bg-launcher border-0 text-uppercase fw-bold rounded py-3 py-lg-2 px-5 px-lg-4">
+                    <li class="nav-item ps-4 ps-lg-3 pt-2 pb-2">
+                        <button class="bg-launcher border-0 text-uppercase fw-bold rounded py-3 py-lg-2 px-5 px-lg-4">
                             Get launcher
                         </button>
                     </li>

@@ -239,19 +239,6 @@
   object-position: center;
   margin: 0;
 }
-.navbar input[type="search"] {
-  width: 100%;
-  height: 4.5rem;
-  background-color: #1a1a1a;
-  color: #fff;
-  font-family: "Open Sauce One", sans-serif;
-  font-weight: 600;
-  font-size: 1.2rem;
-  border: none;
-  border-radius: 6px;
-  padding-left: 2.5rem;
-  margin: 0;
-}
 
 .navbar input[type="search"]::placeholder {
   color: #e8e8e8;
@@ -266,7 +253,6 @@
 
 .bg-launcher {
   background-color: #fcaf17;
-  width: 90%; 
 }
 
 .icon-size {
@@ -291,4 +277,39 @@ section::-webkit-scrollbar {
 
 .logo-size {
   width: 1.5rem;
+}
+
+.navbar input[type="search"] {
+  /*width: 53%;*/
+  height: 4.5rem;
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: "Open Sauce One", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 6px;
+  padding-left: 2.5rem;
+  margin: 0;
+}
+
+
+/* col-sm-6 → desde 576px*/
+@media (min-width: 576px) {
+  .navbar input[type="search"] {
+  width: 50%;
+}
+
+}
+
+/* col-md-4 → desde 768px*/
+@media (min-width: 768px) {
+  .navbar input[type="search"] {
+  width: 70%;
+}
+
+.special-size-button {
+  display: flex;
+  justify-content: center;
+}
 }
