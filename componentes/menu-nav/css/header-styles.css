@@ -355,12 +355,7 @@ section::-webkit-scrollbar {
     justify-content: flex-start;
   }
 
-  .fs-custom {
-    font-size: 0.9rem;
-    padding: 0;
-    width: 10.5rem;
-    height: 2.5rem;
-    margin: 0;
-    font-weight: bolder;
+  .container-size {
+    width: 90%;
   }
 }
