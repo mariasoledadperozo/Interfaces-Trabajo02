@@ -280,7 +280,6 @@ section::-webkit-scrollbar {
 }
 
 .navbar input[type="search"] {
-  /*width: 53%;*/
   height: 4.5rem;
   background-color: #1a1a1a;
   color: #fff;
@@ -317,12 +316,23 @@ section::-webkit-scrollbar {
 @media(min-width: 992px) {
 
 
+  .logo-size {
+    margin-left: 1rem;
+  }
+
   .navbar-nav {
     display: flex;
     flex-direction: row; 
     gap: 2rem; 
   }
 
+  .navbar {
+    height: 5rem;
+  }
+  .arrow-svg-size {
+    width: 1.3rem;
+    margin-left: 0.25rem;
+  }
 
   .navbar-nav > li {
     display: flex;
@@ -337,11 +347,20 @@ section::-webkit-scrollbar {
     padding: 0.5rem 0; 
     color: white; 
     font-weight: 500;
-    font-size: 0.813rem;
+    font-size: 0.90rem;
     letter-spacing: -1px;
   }
 
   .special-size-button {
     justify-content: flex-start;
+  }
+
+  .fs-custom {
+    font-size: 0.8rem;
+    width: 9.4rem;
+    height: 2.5rem;
+    margin: 2rem;
+    font-weight: bolder;
+    padding-top: 0.75rem;
   }
 }
