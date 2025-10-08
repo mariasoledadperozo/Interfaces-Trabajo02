@@ -313,3 +313,35 @@ section::-webkit-scrollbar {
   justify-content: center;
 }
 }
+
+@media(min-width: 992px) {
+
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: row; 
+    gap: 2rem; 
+  }
+
+
+  .navbar-nav > li {
+    display: flex;
+    align-items: center;
+    height: auto;
+    padding: 0; 
+  }
+
+
+  .navbar-nav > li > a {
+    display: block;
+    padding: 0.5rem 0; 
+    color: white; 
+    font-weight: 200;
+    font-size: 0.813rem;
+    letter-spacing: -1px;
+  }
+
+  .special-size-button {
+    justify-content: flex-start;
+  }
+}
