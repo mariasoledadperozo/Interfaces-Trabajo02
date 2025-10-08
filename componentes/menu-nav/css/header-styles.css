@@ -209,6 +209,7 @@
 .overflow-x-auto {
   -ms-overflow-style: none;
   scrollbar-width: none;
+  scrollbar-width: none; 
 }
 
 .w-fixed {
@@ -265,7 +266,7 @@
 
 .bg-launcher {
   background-color: #fcaf17;
-  width: 30rem;
+  width: 90%; 
 }
 
 .icon-size {
@@ -273,8 +274,17 @@
   height: 2rem;
 }
 
+.svg-size {
+  width: 1rem;
+  height: 1rem;
+}
 
 .bi-search {
   font-size: 1.3rem;
   opacity: 0.8;
+}
+
+section::-webkit-scrollbar {
+ display: none; /*Para que scrollbar-gutter funcione la barra de scroll debe existir*/
+ background-color: transparent;
 }
