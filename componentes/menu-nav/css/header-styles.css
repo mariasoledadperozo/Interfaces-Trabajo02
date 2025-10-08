@@ -241,7 +241,7 @@
 }
 .navbar input[type="search"] {
   width: 100%;
-  height: 4rem;
+  height: 4.5rem;
   background-color: #1a1a1a;
   color: #fff;
   font-family: "Open Sauce One", sans-serif;
@@ -285,6 +285,10 @@
 }
 
 section::-webkit-scrollbar {
- display: none; /*Para que scrollbar-gutter funcione la barra de scroll debe existir*/
+ display: none; 
  background-color: transparent;
+}
+
+.logo-size {
+  width: 1.5rem;
 }
