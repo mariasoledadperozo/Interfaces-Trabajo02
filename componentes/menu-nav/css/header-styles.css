@@ -1,171 +1,148 @@
+/* ===================== FUENTES ===================== */
 @font-face {
   font-family: "Open Sauce One";
   src: url("../fonts/OpenSauceOne-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Open Sauce One";
   src: url("../fonts/OpenSauceOne-BlackItalic.ttf") format("truetype");
   font-weight: 900;
   font-style: italic;
 }
-
 @font-face {
   font-family: "Open Sauce One";
   src: url("../fonts/OpenSauceOne-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Open Sauce One";
   src: url("../fonts/OpenSauceOne-BoldItalic.ttf") format("truetype");
   font-weight: 700;
   font-style: italic;
 }
-
 @font-face {
   font-family: "Open Sauce One";
   src: url("../fonts/OpenSauceOne-ExtraBold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Open Sauce One";
   src: url("../fonts/OpenSauceOne-ExtraBoldItalic.ttf") format("truetype");
   font-weight: 800;
   font-style: italic;
 }
-
 @font-face {
   font-family: "Open Sauce One";
   src: url("../fonts/OpenSauceOne-Italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
 }
-
 @font-face {
   font-family: "Open Sauce One";
   src: url("../fonts/OpenSauceOne-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Open Sauce One";
   src: url("../fonts/OpenSauceOne-LightItalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
 }
-
 @font-face {
   font-family: "Open Sauce One";
   src: url("../fonts/OpenSauceOne-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Open Sauce One";
   src: url("../fonts/OpenSauceOne-MediumItalic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
 }
-
 @font-face {
   font-family: "Open Sauce One";
   src: url("../fonts/OpenSauceOne-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Open Sauce One";
   src: url("../fonts/OpenSauceOne-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Open Sauce One";
   src: url("../fonts/OpenSauceOne-SemiBoldItalic.ttf") format("truetype");
   font-weight: 600;
   font-style: italic;
 }
-
 @font-face {
   font-family: "Open Sauce Sans";
   src: url("../fonts/OpenSauceSans-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Open Sauce Sans";
   src: url("../fonts/OpenSauceSans-BlackItalic.ttf") format("truetype");
   font-weight: 900;
   font-style: italic;
 }
-
 @font-face {
   font-family: "Open Sauce Sans";
   src: url("../fonts/OpenSauceSans-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Open Sauce Sans";
   src: url("../fonts/OpenSauceSans-BoldItalic.ttf") format("truetype");
   font-weight: 700;
   font-style: italic;
 }
-
 @font-face {
   font-family: "Open Sauce Sans";
   src: url("../fonts/OpenSauceSans-ExtraBold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Open Sauce Sans";
   src: url("../fonts/OpenSauceSans-ExtraBoldItalic.ttf") format("truetype");
   font-weight: 800;
   font-style: italic;
 }
-
 @font-face {
   font-family: "Open Sauce Sans";
   src: url("../fonts/OpenSauceSans-Italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic;
 }
-
 @font-face {
   font-family: "Open Sauce Sans";
   src: url("../fonts/OpenSauceSans-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Open Sauce Sans";
   src: url("../fonts/OpenSauceSans-LightItalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
 }
-
 @font-face {
   font-family: "Open Sauce Sans";
   src: url("../fonts/OpenSauceSans-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Open Sauce Sans";
   src: url("../fonts/OpenSauceSans-MediumItalic.ttf") format("truetype");
@@ -173,8 +150,7 @@
   font-style: italic;
 }
 
-/*REGLAS*/
-
+/* ===================== BASE ===================== */
 .navbar {
   font-family: "Open Sauce One", sans-serif;
   font-weight: 700;
@@ -183,22 +159,76 @@
 .fs-small {
   font-size: 0.75rem;
 }
-
 .fs-normal {
   font-size: 1.25rem;
 }
-
-.placeholder-color::placeholder {
-  color: white;
-  font-family: "Open Sauce One", sans-serif;
-  font-weight: bold;
-  font-size: 1.3rem;
-}
-
 .w-max-content {
   width: max-content;
 }
+.w-fixed {
+  width: 150px;
+}
+.icon-size {
+  width: 2rem;
+  height: 2rem;
+}
+.svg-size {
+  width: 1rem;
+  height: 1rem;
+}
+.logo-size {
+  width: 2rem;
+}
 
+.bi-search {
+  font-size: 1.3rem;
+  opacity: 0.8;
+}
+
+.bg-launcher {
+  background-color: #fcaf17;
+}
+
+.button-launcher {
+  padding: 1rem;
+  width: 20rem;
+}
+
+.games-card {
+  display: none;
+}
+
+/* ===================== PLACEHOLDERS ===================== */
+.placeholder-color::placeholder {
+  color: #aaa;
+}
+
+.navbar input[type="search"]::placeholder {
+  color: #e8e8e8;
+  font-weight: bold;
+}
+
+/* ===================== INPUT SEARCH ===================== */
+.navbar input[type="search"] {
+  height: 4.5rem;
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: "Open Sauce One", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 6px;
+  padding-left: 2.5rem;
+  margin: 0;
+}
+
+.navbar input[type="search"]:focus {
+  outline: none;
+  background-color: #262626;
+  box-shadow: none;
+}
+
+/* ===================== IMÁGENES ===================== */
 .fs-x-small {
   width: 120px;
   height: 160px;
@@ -206,14 +236,18 @@
   object-position: center;
 }
 
+.pic-size {
+  width: 7.5rem;
+  height: 10rem;
+  object-fit: cover;
+  object-position: center;
+  margin: 0;
+}
+
+/* ===================== SCROLL / WRAPPERS ===================== */
 .overflow-x-auto {
   -ms-overflow-style: none;
   scrollbar-width: none;
-  scrollbar-width: none; 
-}
-
-.w-fixed {
-  width: 150px;
 }
 
 .wrapper {
@@ -228,164 +262,139 @@
   height: 10.5rem;
 }
 
-.placeholder-color::placeholder {
-  color: #aaa;
-}
-
-.pic-size {
-  width: 7.5rem;
-  height: 10rem;
-  object-fit: cover;
-  object-position: center;
-  margin: 0;
-}
-
-.navbar input[type="search"]::placeholder {
-  color: #e8e8e8;
-  font-weight: bold;
-}
-
-.navbar input[type="search"]:focus {
-  outline: none;
-  background-color: #262626;
-  box-shadow: none;
-}
-
-.bg-launcher {
-  background-color: #fcaf17;
-}
-
-.icon-size {
-  width: 2rem;
-  height: 2rem;
-}
-
-.svg-size {
-  width: 1rem;
-  height: 1rem;
-}
-
-.bi-search {
-  font-size: 1.3rem;
-  opacity: 0.8;
-}
-
 section::-webkit-scrollbar {
- display: none; 
- background-color: transparent;
+  display: none;
+  background-color: transparent;
 }
 
-.logo-size {
-  width: 2rem;
-}
+/* ===================== MEDIA QUERIES ===================== */
 
-.navbar input[type="search"] {
-  height: 4.5rem;
-  background-color: #1a1a1a;
-  color: #fff;
-  font-family: "Open Sauce One", sans-serif;
-  font-weight: 600;
-  font-size: 1.2rem;
-  border: none;
-  border-radius: 6px;
-  padding-left: 2.5rem;
-  margin: 0;
-}
-
-.button-launcher{
-  padding: 1rem;
-  width: 20rem;
-}
-
-
-/* col-sm-6 → desde 576px*/
+/* col-sm-6 → desde 576px */
 @media (min-width: 576px) {
   .navbar input[type="search"] {
-  width: 50%;
-}
-
-}
-
-/* col-md-4 → desde 768px*/
-@media (min-width: 768px) {
-  .navbar input[type="search"] {
-  width: 70%;
-}
-
-.special-size-button {
-  display: flex;
-  justify-content: center;
-}
-}
-
-@media (min-width: 1359px) {
-    .first-img-gc{
-    padding-left: 21rem;
+    width: 50%;
   }
 }
 
-@media(min-width: 992px) {
+/* col-md-4 → desde 768px */
+@media (min-width: 768px) {
+  .navbar input[type="search"] {
+    width: 70%;
+  }
+  .special-size-button {
+    display: flex;
+    justify-content: center;
+  }
+}
 
-
+/* col-lg-12 → desde 992px */
+@media (min-width: 992px) {
   .special-size {
     width: 85%;
   }
-
   .logo-size {
     margin-left: 1rem;
+  }
+  .navbar {
+    height: 5rem;
   }
 
   .navbar-nav {
     display: flex;
-    flex-direction: row; 
-    gap: 2rem; 
-  }
-
-  .navbar {
-    height: 5rem;
-  }
-  .arrow-svg-size {
-    width: 1.3rem;
-    margin-left: 0.25rem;
+    flex-direction: row;
+    gap: 2rem;
   }
 
   .navbar-nav > li {
     display: flex;
     align-items: center;
-    height: auto;
-    padding: 0; 
-  }
-
-  .line-games {
-    width: 50%;
-    position: relative;
-    left: 0%;  
-    top: 89%;
-  }
-
-  .line-img {
-    width: 20rem;
   }
 
   .navbar-nav > li > a {
     display: block;
-    padding: 0.5rem 0; 
-    color: white; 
+    padding: 0.5rem 0;
+    color: white;
     font-weight: 500;
-    font-size: 0.90rem;
+    font-size: 0.9rem;
     letter-spacing: -1px;
   }
 
+  /* ---------- Dropdown solo con CLICK ---------- */
+  .games-dropdown-menu {
+    position: absolute;
+    top: 90%; 
+    left: 0;
+    width: 100%;
+    background-color: #111;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: max-height 0.5s ease, opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .games-dropdown-menu.show {
+    max-height: 700px;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Flecha animada */
+  .arrow-svg-size {
+    width: 1.3rem;
+    margin-left: 0.25rem;
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+  }
+
+  .arrow-svg-size.arrow-rotated {
+    transform: rotate(0deg);
+  }
+
+  .games-card {
+    display: flex;
+  }
+  .line-img {
+    width: 16rem;
+  }
   .special-size-button {
     justify-content: flex-start;
   }
-
   .container-size {
     width: 90%;
+  }
+
+  .w-98{
+    width: 98%;
+  }
+
+  .w-93 {
+    width: 93%;
   }
 
   .button-launcher {
     width: 9.5rem;
     height: 2.5rem;
+    font-size: 0.90rem;
+  }
+
+  .nav-item {
+    height: 5rem;
+    border-bottom: #000 2px solid;
+  }
+
+  .nav-item:hover {
+    border-bottom: #fff 2px solid;
+  }
+}
+
+/* col-xl → desde 1359px */
+@media (min-width: 1359px) {
+  .first-img-gc {
+    padding-left: 21rem;
   }
 }
