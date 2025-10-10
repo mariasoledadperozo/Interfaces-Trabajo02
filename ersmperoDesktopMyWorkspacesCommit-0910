@@ -1,0 +1,137 @@
+[33mcommit b246800376dc36d3bf5efee9dff0806c70113806[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32msole[m[33m, [m[1;31morigin/sole[m[33m)[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Fri Oct 10 11:29:26 2025 +0200
+
+    Listo
+
+[33mcommit 127ff9da63c7142784836ee61410b1fe2528d1e3[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Fri Oct 10 09:49:15 2025 +0200
+
+    Ajuste final del menu responsivo en desktop
+
+[33mcommit c7849776d8a2a043770946a898c2ed2ee854f449[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Thu Oct 9 00:18:23 2025 +0200
+
+    Slider de desktop
+
+[33mcommit bf0eca9143e52d8e325041245458e71c521db846[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Wed Oct 8 18:00:10 2025 +0200
+
+    Ajuste
+
+[33mcommit 7d3465e79972f0e1ade3c9f5f84006543629e7b3[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Wed Oct 8 17:28:06 2025 +0200
+
+    Ajuste menu LG
+
+[33mcommit 4cdfb25d708eb1f9abd5f4b0ffad0a8375d813e2[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Wed Oct 8 13:50:13 2025 +0200
+
+    Ajuste boton
+
+[33mcommit 3680c51d3f033c7eadf3f9edf002451fa14f2a82[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Wed Oct 8 12:18:03 2025 +0200
+
+    Ajuste de menu responsivo y menu desktop
+
+[33mcommit 7a6b9f41d158196c9f61a9568d0f373417260c71[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Wed Oct 8 11:43:12 2025 +0200
+
+    Ajuste menu pc
+
+[33mcommit 47b71ac0f273d8128a41f9d8fd4dc130b1028941[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Wed Oct 8 10:43:59 2025 +0200
+
+    Ajuste responsive en ipad e iphone
+
+[33mcommit 32224046ff657e4606a6d5f22020ff345eea9444[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Wed Oct 8 09:22:29 2025 +0200
+
+    Retoque
+
+[33mcommit 20577f9cea5cc4173d1328a4f36fda957c6d069a[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Wed Oct 8 08:30:13 2025 +0200
+
+    Menu responsivo listo
+
+[33mcommit e986c584338ccac4e0c99010c2d7d6b8f3de14c5[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Tue Oct 7 11:49:52 2025 +0200
+
+    Ajuste de barra superior
+
+[33mcommit ff07490be065c37b3a67223adc721827816ef0bd[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Tue Oct 7 11:42:28 2025 +0200
+
+    Ajuste barra superior
+
+[33mcommit c63b6c19d6d821b650f26937e81bee9d7fd6a58a[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Tue Oct 7 10:55:31 2025 +0200
+
+    Boton de launcher hecho
+
+[33mcommit 9b37a4b009cd46f759b5afd04dab484ce39dbc2c[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Mon Oct 6 11:49:39 2025 +0200
+
+    Creado la linea de imagenes
+
+[33mcommit a0a9a01a626361634c0286aaea021e4671eb02d1[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Mon Oct 6 09:01:17 2025 +0200
+
+    Deslizador de imagenes arreglado
+
+[33mcommit 78c9952b54b6f4397d95be9cee591cfba72614f4[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Wed Oct 1 09:22:30 2025 +0200
+
+    Terminado la linea
+
+[33mcommit 1c420385ffba636b90072ccfe62220bbfc3d4020[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Wed Oct 1 08:43:47 2025 +0200
+
+    Linea de imagenes agregada
+
+[33mcommit 1579c2b33286e5004e66eeb94d6e9fcbf228c5c0[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Tue Sep 30 09:05:24 2025 +0200
+
+    Creacion del menu sin incluir la barra de busqueda
+
+[33mcommit f86cc49db9615e9cc3e95a19147271d278960651[m[33m ([m[1;31morigin/release[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mrita[m[33m, [m[1;32mrelease[m[33m, [m[1;32mmain[m[33m, [m[1;32mjesus[m[33m)[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Mon Sep 29 09:34:54 2025 +0200
+
+    Estructura inicial
+
+[33mcommit c52509c09e4641caf5cf5fe7f8a37d3a16a5f9cf[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Mon Sep 29 09:29:04 2025 +0200
+
+    Estructura inicial
+
+[33mcommit 60cdab82f7a4323d74fbe3bebcda0224867d43ce[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Mon Sep 29 09:10:08 2025 +0200
+
+    Colocacion de BootStrap y de icono
+
+[33mcommit 36dcda8877ccbf97370e518a6299bd6d9bc32aa6[m
+Author: Maria Soledad Perozo <mperozo241000@gmail.com>
+Date:   Mon Sep 29 08:55:11 2025 +0200
+
+    Creacion del index.html
