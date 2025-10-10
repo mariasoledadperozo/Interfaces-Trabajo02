@@ -1,18 +1,38 @@
 #section-2{
+    justify-content: center;
+    color: white;
     background-color: black;
-
+    padding: 2rem;
 }
-/*
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+#titulo, #boton{
+    color: white;
+    padding-top: 2%;
+    text-align: left;
+    /*border: 1px solid red; */
+    background-color: black
+}
+
+#titulo{
+    font-size: 2rem; 
+    font-weight: normal;
+    margin-bottom: 1rem;
+    color: white;
+}
+
 .carousel-indicators{
     display: none;
-}*/
+}
 
 .carousel-item{
     width: 100%;
-}
-
-pre{
-    color: white;
 }
 
 p{
@@ -23,5 +43,293 @@ p{
     padding: 0;
 }
 
+/*Por defecto*/
+.carousel-button{
+    width: 12px;
+    height: 12px;
+    background-color: gray;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.carousel-button.active{ /*Cuando se presione*/
+    background-color: white;
+    border: 2px solid black;
+    width: 16px;
+    height: 16px;
+}
+.carousel-button:hover{
+    opacity: 0.8;
+}
+
+@keyframes fadeIn {
+from {
+    opacity: 0;
+    transform: translateY(10px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+
+.fade-in {
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+
+/*Cards*/
+.card-body{
+    background-color: black;
+    font-size: 2em;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    min-height: 25vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 0 0 8px 8px;
+}
+
+.header-row{
+    padding-left: 3%;
+    margin-top: 5%;/*
+    padding-bottom: 3%;*/
+    display: flex;
+    align-items: left;
+    gap: 30px;
+    margin-bottom: 0.5rem;
+
+}
+
+.card-title{
+    font-family: Helvetica;
+    font-weight: bold;
+    margin: 0;
+    font-size: 0.7em;
+}
+
+.date{
+    font-family: Helvetica;
+    font-size: 0.6em;
+    font-weight: lighter;
+    color: grey;
+}
+
+.custom-carousel-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 2rem;
+}
+
+.card-text{
+    margin-top: 0;
+    padding-left: 2%
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575.98px) { 
+    #titulo h2{
+        font-size: 0.5rem;
+        font-weight: bold;
+    }
+
+    #titulo p{
+        font-size: 2.5rem;
+        color: white;
+        font-weight:500;
+    }
+
+    .header-row{
+        font-size: 1.5rem;
+    }
+
+    .card-text{
+        font-size: 2rem;
+    }
+
+}
+
+.view-more-btn {
+    position: relative;
+    display: inline-block;
+    color: #f2c94c;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 0.95rem;
+    padding: 8px 20px;
+    overflow: hidden;
+    border-radius: 4px;
+    transition: color 0.3s ease;
+}
+
+/* Subrayado inicial */
+.view-more-btn::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #f2c94c;
+    transition: all 0.3s ease;
+}
+
+/* Fondo amarillo que se expande desde abajo hacia arriba */
+.view-more-btn::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #f2c94c;
+    z-index: -1;
+    transition: height 0.3s ease;
+}
+
+/* Al pasar el ratón: el fondo crece desde el subrayado */
+.view-more-btn:hover::before {
+    height: 100%;
+}
+
+
+
+
+
+/* md` Medium devices (tablets, 768px and up)
+Para que se ordene en mobile*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    #section-2{
+        padding: 1.5rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    #titulo h2{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    #titulo p{
+        font-size: 2.5rem;
+        color: white;
+        font-weight:500;
+    }
+
+    #boton{
+        width: 50%;
+    }
+
+    #boton .btn{
+        width: 50%;
+    }
+
+    .custom-carousel-buttons{
+        justify-content: center;
+    }
+}
+
+/* `lg` Large devices (desktops, 992px and up*/
+@media (min-width: 992px) and (max-width: 1199.98px){ 
+    #section-2{
+        padding: 1.5rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    #titulo h2{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    #titulo p{
+        font-size: 2.5rem;
+        color: white;
+        font-weight:500;
+    }
+
+    #boton{
+        width: 50%;
+    }
+
+    #boton .btn{
+        width: 50%;
+    }
+
+    .custom-carousel-buttons{
+        justify-content: center;
+    }    
+
+}
+
+/* `xl` Large devices (large desktops, 1200px and up))*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    #section-2{
+        padding: 1.5rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    #titulo h2{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    #titulo p{
+        font-size: 2.5rem;
+        color: white;
+        font-weight:500;
+    }
+
+    #boton{
+        width: 50%;
+    }
+
+    #boton .btn{
+        width: 50%;
+    }
+
+    .custom-carousel-buttons{
+        justify-content: center;
+    }
+
+}
+
+/* `xxl` XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+    #section-2{
+        padding: 1.5rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    #titulo h2{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    #titulo p{
+        font-size: 2.5rem;
+        color: white;
+        font-weight:500;
+    }
+
+    #boton{
+        width: 50%;
+    }
+
+    #boton .btn{
+        width: 50%;
+    }
+
+    .custom-carousel-buttons{
+        justify-content: center;
+    }
+}
 
 
