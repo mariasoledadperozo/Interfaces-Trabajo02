@@ -5,21 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rockstar Games</title>
+
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
     <link rel="shortcut icon" href="assets/Logo-Rockstar.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/index.css">
+
+    <!-- Estilos  -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <header>
-        --------------HEADER-------------------------------
+        <!-- HEADER  -->
     </header>
+
     <main>
+        <!-- Sección principal con el carrusel y el contenido -->
         <div class="container-fluid">
             <div class="row gx-0">
-                <div id="section-1" class="col-12 col-sm-12 col-xl-12 col-xxl-8 flex-column">
-                    <div id="carouselExampleIndicators" class="carousel slide">
+                <!-- Sección 1: Carrusel (60% del ancho) -->
+                <div id="section-1" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-8 col-xxl-8">
+                    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                                 class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -45,36 +53,45 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <div id="section-2" class="col-12 col-xl-12 col-xxl-4 d-flex aling-items-left">
-                    <div class="row">
-                        <div id="titulo" class="col-sm-6 col-xl-6 col-xxl-12">
+
+                <!-- Sección 2: Contenido lateral (40% del ancho) -->
+                <div id="section-2" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 col-xxl-4">
+                    <!-- Título, texto y botón -->
+                    <div id="text-button-row" class="d-flex flex-column justify-content-start align-items-start">
+                        <div id="titulo" class="w-100">
+                            <h2>Grand Theft Auto VI</h2>
+                            <p>Watch Trailer 2 Now</p>
                         </div>
-                        <div id="boton" class="col-sm-6 col-xl-6 col-xxl-12">
+                        <div id="boton" class="w-100">
+                            <a href="#" class="learn-more-btn">LEARN MORE</a>
                         </div>
-                        <div id="slides" class="col-12 ">
-                            <div class="custom-carousel-buttons">
-                                <button class="carousel-button" data-slide="0"></button>
-                                <button class="carousel-button" data-slide="1"></button>
-                                <button class="carousel-button" data-slide="2"></button>
-                                <button class="carousel-button" data-slide="3"></button>
-                            </div>
+                    </div>
+
+                    <!-- Botones personalizados del carrusel -->
+                    <div id="slides" class="mt-auto">
+                        <div class="custom-carousel-buttons">
+                            <button class="carousel-button active" data-slide="0"></button>
+                            <button class="carousel-button" data-slide="1"></button>
+                            <button class="carousel-button" data-slide="2"></button>
+                            <button class="carousel-button" data-slide="3"></button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+
+    <!-- Sección de noticias (tarjetas) -->
     <section class="px-5">
         <a href="#">Newswire</a>
-        <div class="container-fluid text-center">
+        <div class="container-fluid">
             <div class="row g-3">
-                <div class="card col-sm-12 col-md-6 col-xl-4">
+                <div class="card col-12 col-sm-12 col-md-6 col-xl-4 col-xxl-4">
                     <a href="#">
                         <img src="assets/section1.jpg" alt="Halloween Haunts" class="img-fluid">
                         <div class="card-body">
-                            <div class="header-row">
+                            <div class="card-header-info">
                                 <h5 class="card-title">GTA Online</h5>
                                 <p class="date">October 2, 2025</p>
                             </div>
@@ -83,11 +100,11 @@
                     </a>
                 </div>
 
-                <div class="card col-sm-12 col-md-6 col-xl-4">
+                <div class="card col-12 col-sm-12 col-md-6 col-xl-4 col-xxl-4">
                     <a href="#">
                         <img src="assets/section2.jpg" alt="CircoLoco Records" class="img-fluid">
                         <div class="card-body">
-                            <div class="header-row">
+                            <div class="card-header-info">
                                 <h5 class="card-title">CircoLoco Records</h5>
                                 <p class="date">October 3, 2025</p>
                             </div>
@@ -96,11 +113,11 @@
                     </a>
                 </div>
 
-                <div class="card col-sm-12 col-md-6 col-xl-4">
+                <div class="card col-12 col-sm-12 col-md-6 col-xl-4 col-xxl-4">
                     <a href="#">
                         <img src="assets/section3.jpg" alt="Overflod Suzume" class="img-fluid">
                         <div class="card-body">
-                            <div class="header-row">
+                            <div class="card-header-info">
                                 <h5 class="card-title">GTA Online</h5>
                                 <p class="date">September 25, 2025</p>
                             </div>
@@ -109,11 +126,11 @@
                     </a>
                 </div>
 
-                <div class="card col-sm-12 col-md-6 col-xl-4">
+                <div class="card col-12 col-sm-12 col-md-6 col-xl-4 col-xxl-4">
                     <a href="#">
                         <img src="assets/section4.jpg" alt="Neighborhood Watch1" class="img-fluid">
                         <div class="card-body">
-                            <div class="header-row">
+                            <div class="card-header-info">
                                 <h5 class="card-title">GTA Online</h5>
                                 <p class="date">September 18, 2025</p>
                             </div>
@@ -123,11 +140,11 @@
                     </a>
                 </div>
 
-                <div class="card col-sm-12 col-md-6 col-xl-4">
+                <div class="card col-12 col-sm-12 col-md-6 col-xl-4 col-xxl-4">
                     <a href="#">
                         <img src="assets/section5.jpg" alt="GTA+" class="img-fluid">
                         <div class="card-body">
-                            <div class="header-row">
+                            <div class="card-header-info">
                                 <h5 class="card-title">GTA Online</h5>
                                 <p class="date">September 12, 2025</p>
                             </div>
@@ -137,11 +154,11 @@
                     </a>
                 </div>
 
-                <div class="card col-sm-12 col-md-6 col-xl-4">
+                <div class="card col-12 col-sm-12 col-md-6 col-xl-4 col-xxl-4">
                     <a href="#">
                         <img src="assets/section6.jpg" alt="Neighborhood Watch2" class="img-fluid">
                         <div class="card-body">
-                            <div class="header-row">
+                            <div class="card-header-info">
                                 <h5 class="card-title">GTA Online</h5>
                                 <p class="date">September 12, 2025</p>
                             </div>
@@ -152,16 +169,16 @@
             </div>
         </div>
     </section>
-    <div class="text-center mt-4">
-        <a href="https://www.rockstargames.com/games" class="view-more-btn" target="_blank">View More</a>
-    </div>
 
+    <!-- Botón de "Ver más" al final -->
+    <div class="text-center mt-4 mb-5">
+        <a href="#" class="view-more-btn">View More</a>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-    <script src="js/index.js"></script>
-
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
