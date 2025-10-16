@@ -22,22 +22,11 @@
     </header>
 
     <main>
-        <!-- Sección principal con el carrusel y el contenido -->
         <div class="container-fluid">
             <div class="row gx-0">
                 <!-- Sección 1: Carrusel (60% del ancho) -->
-                <div id="section-1" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-8 col-xxl-8">
-                    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                                aria-label="Slide 4"></button>
-                        </div>
+                <div id="section-1" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-8 p-0">
+                    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="false">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img class="d-block w-100" src="assets/global.avif" alt="First slide">
@@ -55,20 +44,19 @@
                     </div>
                 </div>
 
-                <!-- Sección 2: Contenido lateral (40% del ancho) -->
-                <div id="section-2" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 col-xxl-4">
-                    <!-- Título, texto y botón -->
-                    <div id="text-button-row" class="d-flex flex-column justify-content-start align-items-start">
-                        <div id="titulo" class="w-100">
-                            <h2>Grand Theft Auto VI</h2>
-                            <p>Watch Trailer 2 Now</p>
-                        </div>
-                        <div id="boton" class="w-100">
-                            <a href="#" class="learn-more-btn">LEARN MORE</a>
+                <!-- Sección 2: Texto y botón (40% del ancho) -->
+                <div id="section-2" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
+                    <div class="d-flex flex-column justify-content-left h-100">
+                        <div class="row">
+                            <div id="titulo" class="mb-3 col-12 col-8 col-sm-8 col-md-8 col-lg-8 col-xl-12 col-xxl-12">
+                                <h2>Grand Theft Auto VI</h2>
+                                <p>Watch Trailer 2 Now</p>
+                            </div>
+                            <div id="boton" class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-12 col-xxl-12">
+                                <a href="#" class="learn-more-btn ">LEARN MORE</a>
+                            </div>
                         </div>
                     </div>
-
-                    <!-- Botones personalizados del carrusel -->
                     <div id="slides" class="mt-auto">
                         <div class="custom-carousel-buttons">
                             <button class="carousel-button active" data-slide="0"></button>
@@ -82,7 +70,7 @@
         </div>
     </main>
 
-    <!-- Sección de noticias (tarjetas) -->
+    <!-- tarjetas -->
     <section class="px-5">
         <a href="#">Newswire</a>
         <div class="container-fluid">
@@ -118,7 +106,7 @@
                         <img src="assets/section3.jpg" alt="Overflod Suzume" class="img-fluid">
                         <div class="card-body">
                             <div class="card-header-info">
-                                <h5 class="card-title">GTA Online</h5>
+                                <h5 class="card-title">Overflod Suzume</h5>
                                 <p class="date">September 25, 2025</p>
                             </div>
                             <p class="card-text">Secure the New Spy Shots Livery for the Ôverflôd Suzume</p>
