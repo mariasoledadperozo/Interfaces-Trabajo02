@@ -18,12 +18,119 @@
     <link rel="stylesheet" href="componentes/newsSubBanner/css/newSubBanner.css">
     <link rel="stylesheet" href="componentes/formulario/css/formulario.css">
     <link rel="stylesheet" href="componentes/footer/css/footer.css">
+    <link rel="stylesheet" href="componentes/menu-nav/css/header-styles.css">
+
 </head>
 
 <body>
-    <header>
-        <!-- HEADER  -->
-    </header>
+
+
+    <header class="navbar bg-black text-white navbar-dark navbar-expand-lg sticky-top">
+    <div class="container-fluid p-0 overflow-hidden special-align special-size">
+
+      <!-- Barra superior: logo y botón hamburguesa -->
+      <div class="d-flex justify-content-between align-items-center p-3 w-100 bg-black">
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <img src="componentes/menu-nav/img/logo-blanco-rockstar.svg" alt="Logo de Rockstar Games"
+          class="mb-lg-6 ms-lg-5 my-lg-2 logo-size">
+        <img src="componentes/menu-nav/img/persona.svg" alt="Icono de perfil" class="icon-size d-lg-none">
+      </div>
+
+      <!-- Menú LG y responsive -->
+      <div class="navbar-collapse collapse d-lg-flex justify-content-lg-center align-items-lg-center"
+        id="navbarResponsive">
+
+        <!-- Menú principal LG -->
+        <ul class="navbar-nav d-none d-lg-flex flex-lg-row align-items-lg-center gap-lg-3 mx-lg-auto">
+          <li class="nav-item d-flex align-items-center ps-4 ps-lg-3 pt-2 pb-2">
+            <a class="nav-link active fs-normal text-white" href="#">Games</a>
+            <img src="componentes/menu-nav/img/abrir-menu-flecha.svg" alt="flecha" class="arrow-svg-size">
+          </li>
+          <li class="nav-item ps-4 ps-lg-3 pt-2 pb-2 d-flex align-items-center gap-2">
+            <a class="nav-link active fs-normal text-white" href="#">NewsWire</a>
+          </li>
+          <li class="nav-item ps-4 ps-lg-3 pt-2 pb-2 d-flex align-items-center gap-2">
+            <a class="nav-link active fs-normal text-white" href="#">Videos</a>
+          </li>
+          <li class="nav-item ps-4 ps-lg-3 pt-2 pb-2 d-flex align-items-center gap-2">
+            <a class="nav-link active fs-normal text-white" href="#">Downloads</a>
+          </li>
+          <li class="nav-item ps-4 ps-lg-3 pt-2 pb-2 d-flex align-items-center gap-2">
+            <a class="nav-link active fs-normal text-white" href="#">Store</a>
+          </li>
+          <li class="nav-item ps-4 ps-lg-3 pt-2 pb-2 d-flex align-items-center gap-2">
+            <a class="nav-link active fs-normal text-white" href="#">Support</a>
+          </li>
+        </ul>
+
+        <!-- Menú mobile + carrusel -->
+        <ul class="navbar-nav d-lg-none flex-column gap-3 w-100 px-3">
+          <!-- Featured Games -->
+          <li class="nav-item pt-3">
+            <div class="d-flex justify-content-between mb-3">
+              <a class="nav-link active fs-normal text-white" href="#">Featured Games</a>
+              <a class="nav-link active text-end fs-small d-flex align-items-center gap-1 text-white" href="#">
+                VIEW ALL <img src="componentes/menu-nav/img/flecha.svg" alt="Flecha" class="svg-size">
+              </a>
+            </div>
+            <div class="d-flex gap-3 flex-nowrap overflow-auto wrapper">
+              <div class="border border-secondary rounded p-1 bg-black flex-shrink-0 w-fixed">
+                <img src="componentes/menu-nav/img/GTAVI.jpg" class="rounded pic-size" alt="GTA VI">
+              </div>
+              <div class="border border-secondary rounded p-1 bg-black flex-shrink-0">
+                <img src="componentes/menu-nav/img/GTAV.jpg" class="rounded pic-size" alt="GTA V">
+              </div>
+              <div class="border border-secondary rounded p-1 bg-black flex-shrink-0">
+                <img src="componentes/menu-nav/img/GTAONLINE.jpg" class="rounded pic-size" alt="GTA Online">
+              </div>
+              <div class="border border-secondary rounded p-1 bg-black flex-shrink-0">
+                <img src="componentes/menu-nav/img/RDR.jpg" class="rounded pic-size" alt="Red Dead Redemption">
+              </div>
+              <div class="border border-secondary rounded p-1 bg-black flex-shrink-0">
+                <img src="componentes/menu-nav/img/RDR2.jpg" class="rounded pic-size" alt="Red Dead Redemption 2">
+              </div>
+            </div>
+          </li>
+
+          <!-- Otros links mobile -->
+          <li class="nav-item">
+            <a class="nav-link active fs-normal text-white" href="#">NewsWire</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fs-normal text-white" href="#">Videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fs-normal text-white" href="#">Downloads</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fs-normal text-white" href="#">Store</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fs-normal text-white" href="#">Support</a>
+          </li>
+        </ul>
+
+        <!-- Botones y iconos LG -->
+        <div class="d-lg-flex align-items-center gap-3 ms-auto">
+          <button class="fs-custom bg-launcher border-0 text-uppercase fw-bold rounded text-nowrap py-1 px-1
+            button-launcher mx-3 fw-bolder">
+            Get launcher
+          </button>
+          <img src="componentes/menu-nav/img/circulo.svg" alt="Lupa" class="d-none d-lg-block">
+          <img src="componentes/menu-nav/img/persona.svg" alt="Icono de perfil" class="icon-size d-none d-lg-block">
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+
+
+
 
     <main>
         <div class="container-fluid">
@@ -377,6 +484,7 @@
         crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
     <script src="componentes/formulario/js/formulario.js"></script>
+    <script src="componentes/menu-nav/js/main.js"></script>
     
 </body>
 
