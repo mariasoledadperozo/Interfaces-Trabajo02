@@ -1,0 +1,91 @@
+body {
+  background-color: #000; /* fondo negro general */
+  color: #fff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* 
+    SECCIÓN DE SUSCRIPCIÓN
+*/
+
+/* Sección con imagen en mosaico */
+.subscribe-section {
+  background-color: #000; /* negro base */
+  background-image: url('../img/fondo.png'); /* PNG transparente */
+  background-repeat: repeat; /* 🔹 se repite en mosaico */
+  background-position: center center;
+  background-size: 12.5rem auto; /* mantiene el tamaño original del PNG */
+  
+  text-align: center;
+  padding: 120px 20px;
+  position: relative;
+  z-index: -2;
+}
+
+/* Capa negra semitransparente encima del fondo */
+.subscribe-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.9); /* ajusta 0.4 → más oscuro o más claro */
+  z-index: -1;
+}
+
+/* Contenedor interno */
+.subscribe-container {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10;
+}
+
+/* Logotipo Rockstar */
+.subscribe-logo {
+display: inline-block;
+width: 70px;
+height: 70px;
+margin-bottom: 1rem;
+}
+
+/* Título */
+.subscribe-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Texto descriptivo */
+.subscribe-text {
+    color: #ccc;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+/* Botón */
+.subscribe-btn {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.subscribe-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Responsivo */
+@media (max-width: 576px) {
+    .subscribe-title {
+    font-size: 1.3rem;
+    }
+    .subscribe-text {
+    font-size: 0.95rem;
+    }
+}

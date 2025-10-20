@@ -1,0 +1,80 @@
+/* ==============================
+    ESTILO BASE DEL FOOTER
+=============================== */
+footer {
+    background-color: #000;
+    color: #fff;
+    font-size: 0.95rem;
+    padding: 2rem 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-top ul {
+list-style: none;
+padding: 0;
+margin: 0;
+font-weight: 600; /* primera fila en negrita */
+}
+
+.footer-top li {
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+
+.footer-icons a {
+    color: #fff;
+    margin: 0 0.5rem;
+    font-size: 1.3rem;
+    transition: color 0.3s;
+}
+
+.footer-icons a:hover {
+    color: #ccc;
+}
+
+.footer-bottom {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  font-size: 0.85rem;
+  color: #9a9a9a;
+}
+
+/*
+    MODO CLARO AUTOMÁTICO
+*/
+@media (prefers-color-scheme: light) {
+    footer {
+    background-color: #f8f9fa;
+    color: #212529;
+    }
+
+    footer a {
+    color: #212529;
+    }
+
+    footer a:hover {
+    color: #000;
+    }
+
+    .footer-bottom {
+        color: #666;
+    }
+
+    .footer-icons a {
+    color: #212529;
+    }
+
+    .footer-icons a:hover {
+    color: #000;
+    }
+}

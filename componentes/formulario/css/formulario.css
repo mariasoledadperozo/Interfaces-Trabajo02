@@ -1,0 +1,128 @@
+:root {
+  --bg-dark: #000;
+  --bg-gradient: linear-gradient(180deg, #0a0a0a 0%, #111 40%, #080808 100%);
+  --text-muted: rgba(255, 255, 255, 0.85);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background: var(--bg-dark);
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Sección principal */
+.subscribe-section {
+  background: var(--bg-gradient);
+  text-align: center;
+  padding: 120px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.subscribe-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 20%, rgba(255,255,255,0.08), transparent 70%);
+  z-index: 0;
+}
+
+.subscribe-content {
+  position: relative;
+  z-index: 5;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+/* Textos */
+.subscribe-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.subscribe-text {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/*  Formulario Bootstrap adaptado */
+.form-control.bg-ghost {
+  background-color: rgba(255,255,255,0.04) !important;
+  border: 1px solid rgba(255,255,255,0.15) !important;
+  color: #fff !important;
+  border-radius: 50px;
+  padding: 0.6rem 1.2rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-control.bg-ghost:focus {
+  border-color: #fff !important;
+  box-shadow: 0 0 6px rgba(255,255,255,0.4);
+}
+
+.form-control.bg-ghost::placeholder {
+  color: rgba(255,255,255,0.6);
+}
+
+/* Botones */
+.btn-ghost {
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+  border-radius: 50px;
+  border: none;
+  padding: 0.6rem 1.8rem;
+  transition: all 0.2s ease;
+}
+
+.btn-ghost:hover {
+  background-color: #f2f2f2;
+  transform: translateY(-2px);
+}
+
+.btn-outline-ghost {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 50px;
+  padding: 0.6rem 1.8rem;
+  transition: all 0.2s ease;
+}
+
+.btn-outline-ghost:hover {
+  background-color: #fff;
+  color: #000;
+  transform: translateY(-2px);
+}
+
+/* Mensajes */
+#bsFormMessage {
+  color: rgba(255,255,255,0.9);
+}
+
+#bsFormMessage.success {
+  color: #a6f39a;
+}
+
+#bsFormMessage.error {
+  color: #ff9b9b;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+  .subscribe-title {
+    font-size: 1.3rem;
+  }
+  .subscribe-text {
+    font-size: 0.95rem;
+  }
+  .btn-ghost, .btn-outline-ghost {
+    width: 48%;
+  }
+}
