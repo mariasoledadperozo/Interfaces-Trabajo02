@@ -14,7 +14,7 @@
   overflow: hidden;
 }
 
-.subscribe-section::before {
+.form-section::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -22,7 +22,7 @@
   z-index: 0;
 }
 
-.subscribe-content {
+.form-content {
   position: relative;
   z-index: 5;
   max-width: 900px;
@@ -31,13 +31,13 @@
 
 
 /* Textos */
-.subscribe-title {
+.form-title {
   font-size: 1.6rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
 
-.subscribe-text {
+.form-text {
   color: var(--text-muted);
   font-size: 1.05rem;
   line-height: 1.6;
