@@ -1,7 +1,4 @@
 
-body {
-    background-color: #0d0d0d;
-}
 .game-card img {
     border-radius: 10px;
     transition: transform 0.5s ease;
