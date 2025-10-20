@@ -387,6 +387,9 @@ section::-webkit-scrollbar {
     font-size: 0.90rem;
   }
 
+  .w-80 {
+    width: 80%;
+  }
 
   .nav-item {
     height: 5rem;

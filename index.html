@@ -25,7 +25,8 @@
 <body>
 
 
-    <header class="navbar bg-black text-white navbar-dark navbar-expand-lg sticky-top">
+     <!-- HEADER LG y MOBILE -->
+  <header class="navbar bg-black text-white navbar-dark navbar-expand-lg sticky-top">
     <div class="container-fluid p-0 overflow-hidden special-align special-size">
 
       <!-- Barra superior: logo y botón hamburguesa -->
@@ -46,9 +47,34 @@
 
         <!-- Menú principal LG -->
         <ul class="navbar-nav d-none d-lg-flex flex-lg-row align-items-lg-center gap-lg-3 mx-lg-auto">
-          <li class="nav-item d-flex align-items-center ps-4 ps-lg-3 pt-2 pb-2">
-            <a class="nav-link active fs-normal text-white" href="#">Games</a>
-            <img src="componentes/menu-nav/img/abrir-menu-flecha.svg" alt="flecha" class="arrow-svg-size">
+          <li class="nav-item d-flex align-items-center ps-4 ps-lg-3 pt-2 pb-2 games-card">
+            <a class="nav-link active fs-normal text-white games" href="#">Games</a>
+            <img src="componentes/menu-nav/img/abrir-menu-flecha.svg" alt="flecha para abrir menu" class="arrow-svg-size">
+            <div class="d-lg-flex dropdown-menu games-dropdown-menu justify-content-start p-5 border-0 line-games w-100 container-fluid flex-column align-items-start text-start col-lg-10">
+              <div class="d-flex flex-row w-93 justify-content-between align-items-center">
+                <a href="" class="nav-link active fs-normal text-white fs-3 pt-3 pb-4">Featured Games</a>
+                <a class="nav-link active text-end fs-6 d-flex align-items-center gap-1 text-white" href="#">
+                  VIEW ALL <img src="componentes/menu-nav/img/flecha.svg" alt="Flecha" class="svg-size">
+                </a>
+              </div>
+              <div class="gap-3 w-98 flex-nowrap overflow-auto justify-content-start align-items-start d-flex flex-row">
+                <div class="flex-shrink-0 game-card">
+                  <img src="componentes/menu-nav/img/GTAVI.jpg" class="rounded line-img" alt="GTA VI">
+                </div>
+                <div class="flex-shrink-0 game-card">
+                  <img src="componentes/menu-nav/img/GTAV.jpg" class="rounded line-img" alt="GTA V">
+                </div>
+                <div class="flex-shrink-0 game-card">
+                  <img src="componentes/menu-nav/img/GTAONLINE.jpg" class="rounded line-img" alt="GTA Online">
+                </div>
+                <div class="flex-shrink-0 game-card">
+                  <img src="componentes/menu-nav/img/RDR2.jpg" class="rounded line-img" alt="Red Dead Redemption 2">
+                </div>
+                <div class="flex-shrink-0 game-card">
+                  <img src="componentes/menu-nav/img/RDR.jpg" class="rounded line-img" alt="Red Dead Redemption">
+                </div>
+              </div>
+            </div>
           </li>
           <li class="nav-item ps-4 ps-lg-3 pt-2 pb-2 d-flex align-items-center gap-2">
             <a class="nav-link active fs-normal text-white" href="#">NewsWire</a>
@@ -106,16 +132,18 @@
           <li class="nav-item">
             <a class="nav-link active fs-normal text-white" href="#">Downloads</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-flex flex-row justify-content-between w-80">
             <a class="nav-link active fs-normal text-white" href="#">Store</a>
+                        <img src="componentes/menu-nav/img/flecha.svg" class="svg-size">
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-flex flex-row justify-content-between w-80">
             <a class="nav-link active fs-normal text-white" href="#">Support</a>
+                        <img src="componentes/menu-nav/img/flecha.svg" class="svg-size" alt="">
           </li>
         </ul>
 
         <!-- Botones y iconos LG -->
-        <div class="d-lg-flex align-items-center gap-3 ms-auto">
+        <div class="d-lg-flex align-items-center gap-3 ms-auto m-3">
           <button class="fs-custom bg-launcher border-0 text-uppercase fw-bold rounded text-nowrap py-1 px-1
             button-launcher mx-3 fw-bolder">
             Get launcher
@@ -127,8 +155,6 @@
       </div>
     </div>
   </header>
-
-
 
 
 
