@@ -1,0 +1,462 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Carrusel */
+#section-1 {
+    position: relative;
+    display: flex;
+}
+
+#section-2 {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 0;
+    text-align: left;
+}
+
+/* Indicadores del carrusel Bootstrap */
+.carousel-indicators {
+    display: none;
+}
+
+.carousel-indicators button {
+    width: 40px;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 2px;
+    margin: 0 4px;
+    transition: all 0.3s ease;
+}
+
+.carousel-indicators button.active {
+    background-color: white;
+}
+
+/* Título */
+#titulo h2 {
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 0rem;
+    text-align: left;
+}
+
+#titulo p {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    font-weight: 750;
+    text-align: left;
+}
+
+/* Animación Botón "Learn More" */
+.learn-more-btn {
+    display: inline-block;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 12px 24px;
+    border: 2px solid white;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+    background-color: transparent;
+    box-sizing: border-box;
+    transition: color 0.4s ease, border-color 0.4s ease;
+}
+
+.learn-more-btn::before {
+    content: "";
+    position: absolute;
+    background-color: #f2c94c;
+    height: 0%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    transition: height 0.4s ease;
+}
+
+.learn-more-btn:hover::before {
+    height: 100%;
+}
+
+.learn-more-btn:hover {
+    color: black;
+    border-color: #f2c94c;
+}
+
+/* Controlador slides */
+.custom-carousel-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.carousel-button {
+    width: 15px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+.carousel-button.active {
+    width: 45px;
+    height: 15px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.carousel-button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Botón "View More" */
+.view-more-btn {
+    color: #f2c94c;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 8px 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    transition: color 0.3s;
+    display: inline-block;
+}
+
+.view-more-btn::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #f2c94c;
+    transition: all 0.3s ease;
+}
+
+.view-more-btn::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #f2c94c;
+    z-index: -1;
+    transition: height 0.3s ease;
+}
+
+.view-more-btn:hover::before {
+    height: 100%;
+}
+
+.view-more-btn:hover::after {
+    background-color: transparent;
+}
+
+.view-more-btn:hover {
+    color: black;
+}
+
+/* Estilos de las tarjetas */
+.card {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card-body {
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 0 0 8px 8px;
+}
+#text-button-row {
+    text-align: left;
+    align-items: flex-start !important;
+    justify-content: left; /* mantiene la verticalidad centrada */
+    padding-left: 2rem; /* o el espaciado que se vea más parecido */
+}
+
+/* Contenedor de título y fecha */
+.card-header-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-bottom: 0.8rem;
+    gap: 8px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.date {
+    font-size: 0.9rem;
+    color: #b0b0b0;
+    margin: 0;
+    white-space: nowrap;
+}
+
+/* Descripción del texto */
+.card-text {
+    font-size: 1rem;
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Sección Newswire */
+section.px-5>a {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+/* Animación */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Corregir espacio entre la imagen y el texto */
+#section-1 .carousel-inner {
+    margin-bottom: 0;  /* Eliminar cualquier margen adicional */
+}
+
+#section-1 .carousel-item {
+    margin-bottom: 0;  /* Asegurarse de que no haya margen adicional entre los elementos del carrusel */
+}
+
+#section-2 {
+    padding-top: 0;  /* Eliminar cualquier padding extra en la parte superior del contenedor */
+    margin-top: -10px; /* Ajustar la separación para el contenido */
+}
+
+/* Media Queries para responsive */
+
+/* Small devices (phones, max 576px) */
+@media (max-width: 575.98px) {
+    #section-1 .carousel-item img {
+        margin-bottom: 0;  /* Eliminar espacio entre la imagen y el texto */
+    }
+
+    #section-2 {
+        padding-top: 2rem;  /* Ajustar el padding top para pequeñas pantallas */
+        padding-left: 1rem;
+    }
+
+    #titulo h2 {
+        font-size: 0.7rem;
+    }
+
+    #titulo p {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+
+    }
+
+    .learn-more-btn {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+        width: 85%;
+    }
+
+    .view-more-btn {
+        font-size: 0.9rem;
+        padding: 7px 15px;
+    }
+
+    .card-text {
+        font-size: 1.2rem;
+    }
+
+    .custom-carousel-buttons {
+        padding: 15px 0;
+    }
+
+    .carousel-button.active {
+        width: 40px;
+    }
+}
+
+/* Medium devices (tablets, 576px to 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #section-2 {
+        padding: 2.5rem 2rem;
+    }
+
+    #titulo{
+        text-align: left;
+    }
+
+    #boton{
+        text-align: left;
+    }
+
+    #titulo h2 {
+        font-size: 0.75rem;
+    }
+
+    #titulo p {
+        font-size: 2rem;
+    }
+
+    .learn-more-btn {
+        font-size: 1rem;
+        padding: 12px 24px;
+    }
+
+    .view-more-btn {
+        font-size: 1rem;
+        padding: 8px 20px;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+}
+
+/* Medium-Large devices (768px to 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #section-1 {
+        min-height: 500px;
+    }
+
+    #section-2 {
+        padding: 3rem 2.5rem;
+    }
+
+    #titulo{
+        text-align: left;
+    }
+
+    #boton{
+        text-align: left;
+    }
+
+    #titulo h2 {
+        font-size: 0.8rem;
+    }
+
+    #titulo p {
+        font-size: 2.2rem;
+    }
+
+    .learn-more-btn {
+        font-size: 1rem;
+        padding: 12px 24px;
+    }
+
+    .view-more-btn {
+        font-size: 1rem;
+        padding: 8px 20px;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+}
+
+/* Large to Extra Large devices (992px to 1199px) - Vertical layout */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #section-1 {
+        min-height: 550px;
+    }
+
+    #section-2 {
+        padding: 3rem 3rem;
+    }
+    
+    #titulo{
+        text-align: left;
+    }
+
+    #boton{
+        text-align: right;
+    }
+
+    #titulo h2 {
+        font-size: 0.8rem;
+    }
+
+    #titulo p {
+        font-size: 2.5rem;
+    }
+}
+
+/* Extra Large devices (desktops, 1200px and up) - Side by side layout */
+@media (min-width: 1200px) {
+    #section-1 {
+        min-height: auto;
+    }
+
+    #section-2 {
+        padding: 4rem 3rem;
+    }
+
+    #titulo h2 {
+        font-size: 0.8rem;
+    }
+
+    #titulo p {
+        font-size: 2.2rem;
+    }
+}
