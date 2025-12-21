@@ -5,10 +5,10 @@ Desplegada en https://interfaces-trabajo02.vercel.app/ para que puedas verla onl
 
 <h2>Tecnologías usadas</h2>
 <hr/>
-- HTML5
-- CSS3
-- JavaScript (vanilla)
-- Bootstrap 5
+- HTML5 <br/>
+- CSS3 <br/>
+- JavaScript (vanilla) <br/>
+- Bootstrap 5 <br/>
 <h2>Demo</h2>
 <hr/>
 Accede a la landing online: https://interfaces-trabajo02.vercel.app/
